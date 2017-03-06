@@ -49,7 +49,8 @@ module OmniAuth
           last_name: raw_info['family_name'],
           email: raw_info['email'] || raw_info['upn'],
           oid: raw_info['oid'],
-          tid: raw_info['tid']
+          tid: raw_info['tid'],
+          idp: raw_info['idp']
         }
       end
 
