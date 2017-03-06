@@ -50,7 +50,7 @@ module OmniAuth
           email: raw_info['email'] || raw_info['upn'],
           oid: raw_info['oid'],
           tid: raw_info['tid'],
-          idp: raw_info['idp']
+          raw_info: raw_info
         }
       end
 
